@@ -1,0 +1,438 @@
+(PCB ''
+  (resolution mil 1000)
+  (structure
+    (boundary(path signal 0 0.2927 -27.5591 -0.0001 -27.2662 -0.0001 -0.2929 0.2927 -0.0001 39.077 -0.0001 39.3699 -0.2929 39.3699 -27.2662 39.077 -27.5591 0.2927 -27.5591 )
+    )
+    (via via0 via1
+    )
+    (grid via   0.25)
+    (grid wire   0.25)
+    (grid place   0.25)
+    (rule(clear 0.6034))
+    (rule(clear 0.6034 (type default_smd)))
+    (rule(clear 0.6034 (type smd_smd)))
+    (rule(width 1.005))
+    (layer 1
+      (type signal)
+    )
+    (layer 2
+      (type signal)
+    )
+
+  )
+
+  (placement
+    (component u1
+      (place u1 0 0 front 0
+      )
+    )
+
+  )
+  (library
+    (image u1
+      (pin p225 225 17.9369 -24.2241)
+      (pin p225 237 19.5159 -24.2241)
+      (pin p225 249 21.0909 -24.2241)
+      (pin p225 261 22.6649 -24.2241)
+      (pin p225 273 16.3669 -24.2241)
+      (pin p225 285 14.7909 -24.2241)
+      (pin p225 297 13.2169 -24.2241)
+      (pin p309 309 25.8149 -21.0741)
+      (pin p309 321 25.8149 -19.5001)
+      (pin p309 333 25.8149 -17.9251)
+      (pin p309 345 25.8119 -16.3501)
+      (pin p309 357 25.8149 -14.7761)
+      (pin p309 369 25.8149 -13.2001)
+      (pin p309 381 25.8149 -11.6261)
+      (pin p225 393 22.6649 -8.4761)
+      (pin p225 405 21.0909 -8.4761)
+      (pin p225 417 19.5149 -8.4761)
+      (pin p225 429 17.9409 -8.4761)
+      (pin p225 441 16.3669 -8.4761)
+      (pin p225 453 14.7909 -8.4761)
+      (pin p225 465 13.2169 -8.4761)
+      (pin p309 477 10.0669 -11.6261)
+      (pin p309 489 10.0669 -13.2001)
+      (pin p309 501 10.0669 -14.7761)
+      (pin p309 513 10.0679 -16.3501)
+      (pin p309 525 10.0669 -17.9241)
+      (pin p309 537 10.0669 -19.5001)
+      (pin p309 549 10.0669 -21.0741)
+      (pin p561 561 17.9419 -16.2721)
+    )
+
+    (padstack via0
+      (shape(circle 1 2.4016))
+      (shape(circle 2 2.4016))
+    )
+    (padstack via1
+      (shape(circle 1 2.4))
+      (shape(circle 2 2.4))
+    )
+
+    (padstack p225
+      (shape(polygon 1 0.01 -0.3937 1.378 0.3937 1.378 0.3937 -1.378 -0.3937 -1.378))
+    )
+    (padstack p309
+      (shape(polygon 1 0.01 -1.378 0.3937 1.378 0.3937 1.378 -0.3937 -1.378 -0.3937))
+    )
+    (padstack p561
+      (shape(polygon 1 0.01 -5.5118 5.5118 5.5118 5.5118 5.5118 -5.5118 -5.5118 -5.5118))
+    )
+  )
+  (network
+    (net U1_4
+      (pins u1-225)
+    )
+    (net U1_5
+      (pins u1-237)
+    )
+    (net U1_6
+      (pins u1-249)
+    )
+    (net U1_7
+      (pins u1-261)
+    )
+    (net U1_3
+      (pins u1-273)
+    )
+    (net U1_2
+      (pins u1-285)
+    )
+    (net U1_1
+      (pins u1-297)
+    )
+    (net U1_8
+      (pins u1-309)
+    )
+    (net U1_9
+      (pins u1-321)
+    )
+    (net U1_10
+      (pins u1-333)
+    )
+    (net U1_11
+      (pins u1-345)
+    )
+    (net U1_12
+      (pins u1-357)
+    )
+    (net U1_13
+      (pins u1-369)
+    )
+    (net U1_14
+      (pins u1-381)
+    )
+    (net U1_15
+      (pins u1-393)
+    )
+    (net U1_16
+      (pins u1-405)
+    )
+    (net U1_17
+      (pins u1-417)
+    )
+    (net U1_18
+      (pins u1-429)
+    )
+    (net U1_19
+      (pins u1-441)
+    )
+    (net U1_20
+      (pins u1-453)
+    )
+    (net U1_21
+      (pins u1-465)
+    )
+    (net U1_22
+      (pins u1-477)
+    )
+    (net U1_23
+      (pins u1-489)
+    )
+    (net U1_24
+      (pins u1-501)
+    )
+    (net U1_25
+      (pins u1-513)
+    )
+    (net U1_26
+      (pins u1-525)
+    )
+    (net U1_27
+      (pins u1-537)
+    )
+    (net U1_28
+      (pins u1-549)
+    )
+    (net U1_29
+      (pins u1-561)
+    )
+    (class U1_4 U1_4
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_5 U1_5
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_6 U1_6
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_7 U1_7
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_3 U1_3
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_2 U1_2
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_1 U1_1
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_8 U1_8
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_9 U1_9
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_10 U1_10
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_11 U1_11
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_12 U1_12
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_13 U1_13
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_14 U1_14
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_15 U1_15
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_16 U1_16
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_17 U1_17
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_18 U1_18
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_19 U1_19
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_20 U1_20
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_21 U1_21
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_22 U1_22
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_23 U1_23
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_24 U1_24
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_25 U1_25
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_26 U1_26
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_27 U1_27
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_28 U1_28
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+    (class U1_29 U1_29
+      (circuit 
+        (use_via via1)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.6)
+      )
+    )
+
+  )
+
+   (wiring
+    )
+
+)
