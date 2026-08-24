@@ -29,4 +29,4 @@ added stars to the 2 lights plus some more around for decor
 ![alt text](image-3.png) TADAAA all done with pcb onto firmware now im thinking of making each key spell my name or smth for now then gonna make a website that uses these latters maybe numbers to play notes!!.-1:50
 24/08-23:53
 HIYAA gonna work on firmware now , just figuring out what software i need -2353
-okay so i went off path buttt, i just found out i can use unicode to maybe makesome of my keys emojis so they can double as that WOOOOO . so i can type my name and emojis when im not on my website lmaooo-0022
+okay so i went off path buttt, i just found out i can use unicode to maybe makesome of my keys emojis so they can double as that WOOOOO . so i can type my name and emojis when im not on my website lmaooo-0022. also just realised it replaced all my pics , crineee. theyre all in the other folder so gonna have to fix that .
