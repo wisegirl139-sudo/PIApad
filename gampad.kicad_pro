@@ -39,7 +39,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
+          "drill": 0.0,
           "height": 1.27,
           "width": 1.27
         },
@@ -644,11 +644,11 @@
     "top_level_sheets": [
       {
         "filename": "gampad.kicad_sch",
-        "name": "Root",
-        "uuid": "c0d4f273-79dd-4c00-be41-841969edfec8"
+        "name": "",
+        "uuid": "befa7daa-48d3-487c-b344-3d787a50e7da"
       }
     ],
-    "used_designators": "R1-7,J1-3,U1-3,D1-3,#PWR1-23,C1-5",
+    "used_designators": "R1-7,J1-10,U1-3,D1-3,#PWR1-23,C1-5",
     "variants": []
   },
   "sheets": [
