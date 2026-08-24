@@ -19,3 +19,11 @@ TURNING IT INTO A PAD THEN ASSIGNING THE FOOT PRINT TO SCHMATIC THEN IT CONNECTS
 had a couple really anoying routes when i had 4 routes left, spent a bit of time learning about viases , used a bunch of them fixed up the usbc receptecle dn dp ones too
 ![alt text](image-3.png)
 now adding art work-0047
+
+that was the 20th of aug , now is 23 ,- 23:46 my wholeproject deleted( well just the pcb after i added silk screens asw :'))
+okay anyways im restarting the pcb i hate kicad
+![ ,,](image.png) what we at rn , i tried the other edges chauffer or smth i think they look cooler than rounded gonna connect everything now.
+![alt text](image-1.png) got a bunch on , none left unrouted the holes are gonna bw kinda funky tho but its alrightt.adding graphics now -0122
+added stars to the 2 lights plus some more around for decor
+![alt text](image-2.png)-1:31
+![alt text](image-3.png) TADAAA all done with pcb onto firmware now im thinking of making each key spell my name or smth for now then gonna make a website that uses these latters maybe numbers to play notes!!.-1:50
