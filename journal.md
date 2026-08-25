@@ -30,3 +30,6 @@ added stars to the 2 lights plus some more around for decor
 24/08-23:53
 HIYAA gonna work on firmware now , just figuring out what software i need -2353
 okay so i went off path buttt, i just found out i can use unicode to maybe makesome of my keys emojis so they can double as that WOOOOO . so i can type my name and emojis when im not on my website lmaooo-0022. also just realised it replaced all my pics , crineee. theyre all in the other folder so gonna have to fix that .
+also found the app i need to download for the stm32 -STM32CubeMX- i defo used the punctuation wrong but who cares . anyways doenloading that now -0030
+fahhh whys there sm like whattt -![alt text](image-4.png) tm options , just need ide and smth else tho wait im still exploring packages also laptop just switch off amidst me writing that ahhhhhh, everythings against me . -0036 
+bro this is cracking meee, as a person who usually just does cad and web dev, i dont like this just got all the fles, the ide and the mx pack from which i can get the l4 serires stuff which is what im using ayyy-1:18
