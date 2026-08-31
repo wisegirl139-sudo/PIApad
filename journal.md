@@ -35,3 +35,5 @@ fahhh whys there sm like whattt -![alt text](image-4.png) tm options , just need
 bro this is cracking meee, as a person who usually just does cad and web dev, i dont like this just got all the fles, the ide and the mx pack from which i can get the l4 serires stuff which is what im using ayyy-1:18
 30/08 23:38
 hiiii im alive ummm i signed up for like 30 diff gack club events lets not question it , also went to my first hackathon sunbeam was peak okay back to finish it and make ot yessssss bc i hate cpp and this part of software. that makes no grammatical sense but oh well.-23:40 nvm im too tired ti fix stuff-0038
+16:46
+downloaded the wrong one apparently so i got it on vs codahhaaaa

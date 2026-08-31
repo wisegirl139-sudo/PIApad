@@ -3999,25 +3999,25 @@
 		(fields_autoplaced yes)
 		(uuid "0aedc076-f3c4-45f2-9a56-4b98ace2d05f")
 		(property "Reference" "U1"
-			(at 209.9467 76.2 0)
+			(at 215.2081 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "STM32L442KCUx"
-			(at 209.9467 73.66 0)
+			(at 215.2081 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
