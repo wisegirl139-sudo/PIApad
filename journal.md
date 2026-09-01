@@ -7,7 +7,8 @@ nevermind i saved it as a schematic not as a symbol , were changing to STM32L442
 changed the recepticle to 14 pin just realised the 1 pin didnt have d+ and minus, now connectig , all heds and stuff gonna be 0603-2:24
 added a mic5504 to convert power from 5v to 3.3v
 also added a 1x4 connecter to act as a swd header.
-put the capacitators in parrallel, connect all gnd t gnd, connect dp1 to dp2 etc. ![alt text](img) -3:58
+put the capacitators in parrallel, connect all gnd t gnd, connect dp1 to dp2 etc. <img width="560" height="322" alt="image" src="https://github.com/user-attachments/assets/0ab8e7c6-2be3-4e50-b079-2c3993fe18a8" />
+ -3:58
 
 
 10:37 5 hours ish not too sure
