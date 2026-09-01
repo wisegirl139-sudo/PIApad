@@ -1,4 +1,4 @@
-@@ -1,27 +1,4 @@
+
 start - 00:04 -3 hrs 58 mins
 https://github.com/AnasMalas/pcb-edge-usb-c/tree/main used for the usb c schmatic
 currently looking at replacements for CH582M , altthough its the best fit rn , lowk cant find a sinle footprint or symbol for it on ki cad , and none on google either .
