@@ -98,20 +98,37 @@ int main(void)
   MX_ADC1_Init();
   MX_USB_PCD_Init();
   /* USER CODE BEGIN 2 */
-
+  Init_LED_PB3();
   /* USER CODE END 2 */
 
   /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
-  while (1)
-  {
-    /* USER CODE END WHILE */
+/* USER CODE BEGIN WHILE */
+uint32_t baseline = 0;
+int calibrated = 0;
+while (1)
+{
+  /* USER CODE END WHILE */
 
-    /* USER CODE BEGIN 3 */
+  /* USER CODE BEGIN 3 */
+  uint32_t val = Sample_Pad_PA0(); /* sample PA0 (ADC_CHANNEL_5) */
+
+  if (!calibrated) {
+      /* take a single baseline sample on startup; you can average more if desired */
+      baseline = val;
+      calibrated = 1;
   }
-  /* USER CODE END 3 */
-}
 
+  /* Example threshold — tune after measuring baseline */
+  if (val > baseline + 200) {
+      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, GPIO_PIN_SET); /* PB5 on */
+  } else {
+      HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, GPIO_PIN_RESET); /* PB5 off */
+  }
+
+  HAL_Delay(20); /* frame delay; tune for responsiveness vs power */
+}
+/* USER CODE END 3 */
+}
 /**
   * @brief System Clock Configuration
   * @retval None
@@ -232,7 +249,7 @@ static void MX_ADC1_Init(void)
   */
   sConfig.Channel = ADC_CHANNEL_5;
   sConfig.Rank = ADC_REGULAR_RANK_1;
-  sConfig.SamplingTime = ADC_SAMPLETIME_247CYCLES_5;
+  sConfig.SamplingTime = ADC_SAMPLETIME_640CYCLES_5;
   sConfig.SingleDiff = ADC_SINGLE_ENDED;
   sConfig.OffsetNumber = ADC_OFFSET_NONE;
   sConfig.Offset = 0;
@@ -311,7 +328,39 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void Configure_ADC_Channel(uint32_t channel)
+{
+    ADC_ChannelConfTypeDef sConfig = {0};
+    sConfig.Channel = channel;
+    sConfig.Rank = ADC_REGULAR_RANK_1;
+    sConfig.SamplingTime = ADC_SAMPLETIME_640CYCLES_5;
+    sConfig.SingleDiff = ADC_SINGLE_ENDED;
+    sConfig.OffsetNumber = ADC_OFFSET_NONE;
+    sConfig.Offset = 0;
+    if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK) { Error_Handler(); }
+}
+void Init_LED_PB3(void)
+{
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+    __HAL_RCC_GPIOB_CLK_ENABLE();
+    GPIO_InitStruct.Pin = GPIO_PIN_3;
+    GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+    HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_3, GPIO_PIN_RESET);
+}
+uint32_t Sample_Pad_PA0(void)
+{
+    uint32_t adc_value = 0;
+    Configure_ADC_Channel(ADC_CHANNEL_5);
+    HAL_ADC_Start(&hadc1);
+    if (HAL_ADC_PollForConversion(&hadc1, 10) == HAL_OK) {
+        adc_value = HAL_ADC_GetValue(&hadc1);
+    }
+    HAL_ADC_Stop(&hadc1);
+    return adc_value;
+}
 /* USER CODE END 4 */
 
 /**
