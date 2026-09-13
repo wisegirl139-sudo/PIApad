@@ -4,9 +4,11 @@ this will also soon have its compatibe website.
 how it works is each "key" acts a keyboard key (like genuinely abcd etc on your keyboard) then these key values are used on the website to make sounds.(eg x tricggers f#). and thats pretty much a whole summary of it
 anywyas
 pcb
-<img width="505" height="337" alt="image" src="https://github.com/user-attachments/assets/021e0f4f-e114-45d2-88f0-67d02c21aa72" />
+<img width="571" height="359" alt="image" src="https://github.com/user-attachments/assets/53c96f6f-8454-4f63-8771-10431f863acb" />
+
 schmatic
-<img width="690" height="404" alt="image" src="https://github.com/user-attachments/assets/c9b07616-bb6e-4ab1-ac90-433d7f2c0e13" />
+<img width="645" height="362" alt="image" src="https://github.com/user-attachments/assets/2c14266c-9128-4dc6-8fcb-933b5d5ed73e" />
+
 BOM
 3	100 nF capacitor, 0603	0603 100nF 50V X7R SMD capacitor
 2	10 µF capacitor, 0603	0603 10uF 10V X5R SMD capacitor
