@@ -1,7 +1,12 @@
-hiya, so piapad is short for piano pad, now its not really a piano or a pad, its actually a mini keyboard on a card shaped pcb. So sue me for misleading or wtv but it is a cathier name , i bet kevin hart would agree.
+hiya, so piapad is short for piano pad, now its not really a piano or a pad, its actually a mini keyboard on a card shaped pcb. So sue me for misleading or wtv but it is a catchier name , i bet kevin hart would agree.
+
 anyways now piapad has 8 keys made from exposed copper pads that use acd type sensoring.(horrible wording but yes).Now peronally the scmatic is peak and so is the pcb but the firmware is a bit mid but hey always room for improvement.
-this will also soon have its compatibe website.
++this will also soon have its compatibe website.
+
 how it works is each "key" acts a keyboard key (like genuinely abcd etc on your keyboard) then these key values are used on the website to make sounds.(eg x tricggers f#). and thats pretty much a whole summary of it
+
+why - i wanted to learn more about circuit boards and try out more stuff (ive only ever made a hack pad this is my second project). and also do successful pcb art (forgot to remove solder mask from the copper art on the old ones:'(
+
 anywyas
 pcb
 <img width="571" height="359" alt="image" src="https://github.com/user-attachments/assets/53c96f6f-8454-4f63-8771-10431f863acb" />
