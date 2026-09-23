@@ -9,10 +9,11 @@ why - i wanted to learn more about circuit boards and try out more stuff (ive on
 
 anywyas
 pcb
-<img width="571" height="359" alt="image" src="https://github.com/user-attachments/assets/53c96f6f-8454-4f63-8771-10431f863acb" />
+<img width="490" height="314" alt="image" src="https://github.com/user-attachments/assets/97dc6d65-6e76-4d74-8ceb-8a25e0ad9769" />
+
 
 schmatic
-<img width="645" height="362" alt="image" src="https://github.com/user-attachments/assets/2c14266c-9128-4dc6-8fcb-933b5d5ed73e" />
+<img width="755" height="398" alt="image" src="https://github.com/user-attachments/assets/4a4d179f-aeaa-477a-8b93-2f0c1402703a" />
 
 BOM
 
