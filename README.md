@@ -15,6 +15,8 @@ schmatic
 <img width="645" height="362" alt="image" src="https://github.com/user-attachments/assets/2c14266c-9128-4dc6-8fcb-933b5d5ed73e" />
 
 BOM
+
+
 3	100 nF capacitor, 0603	0603 100nF 50V X7R SMD capacitor
 
 2	10 µF capacitor, 0603	0603 10uF 10V X5R SMD capacitor
