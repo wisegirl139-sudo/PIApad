@@ -16,13 +16,23 @@ schmatic
 
 BOM
 3	100 nF capacitor, 0603	0603 100nF 50V X7R SMD capacitor
+
 2	10 µF capacitor, 0603	0603 10uF 10V X5R SMD capacitor
+
 2	Yellow LED, 0603	0603 yellow LED 1608 SMD 2V 20mA
+
 1	1×4, 2.54 mm vertical header	1x4 2.54mm male pin header straight PCB
+
 2	30 Ω, 0603	0603 30R 30 ohm SMD resistor 1%
+
 2	5.1 kΩ, 0603	0603 5.1K 5100 ohm SMD resistor 1%
+
 1	10 kΩ, 0603	0603 10K SMD resistor 1%
+
 2	1 kΩ, 0603	0603 1K SMD resistor 1%
+
 1	STM32L442KCU6	STM32L442KCU6 QFN32
+
 1	MIC5504-3.3YM5	MIC5504-3.3YM5 SOT23-5 3.3V
+
 total roughly=£30
