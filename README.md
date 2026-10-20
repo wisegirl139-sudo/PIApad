@@ -21,13 +21,9 @@ BOM
 | 3  | 100 nF capacitor, 0603	0603 100nF 50V X7R SMD capacitor  |
 | 2  | 10 µF capacitor, 0603	0603 10uF 10V X5R SMD capacitor  |
 | 3  | 100 nF capacitor, 0603	0603 100nF 50V X7R SMD capacitor |
-| 3  | 
-
-3	
-
-2	10 µF capacitor, 0603	0603 10uF 10V X5R SMD capacitor
-
-2	Yellow LED, 0603	0603 yellow LED 1608 SMD 2V 20mA
+| 2 | 10 µF capacitor, 0603	0603 10uF 10V X5R SMD capacitor |
+| 2 | Yellow LED, 0603	0603 yellow LED 1608 SMD 2V 20mA |
+	
 
 1	1×4, 2.54 mm vertical header	1x4 2.54mm male pin header straight PCB
 
