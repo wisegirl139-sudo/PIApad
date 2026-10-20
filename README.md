@@ -14,6 +14,7 @@ anywyas
 <img width="755" height="398" alt="image" src="https://github.com/user-attachments/assets/4a4d179f-aeaa-477a-8b93-2f0c1402703a" />
 
 <h2 align="center">BOM</h2>
+
 | number | item name | link | price |
 | ------------- | ------------- | ------------- | ------------- |
 | 6 | 100 nF capacitor, 0603	0603 100nF 50V X7R SMD capacitor  |https://shorturl.at/AdGyc| ￡4.19 |
@@ -26,6 +27,7 @@ anywyas
 | 2 |	1 kΩ, 0603	0603 1K SMD resistor 1% | https://rb.gy/cfu7y2 | ￡1.28 |
 | 1 |	STM32L442KCU6	STM32L442KCU6 QFN32|https://shorturl.at/c5ISe | ￡4.23 |
 | 1 |	MIC5504-3.3YM5	MIC5504-3.3YM5 SOT23-5 3.3V| https://www.aliexpress.com/item/1005009487683111.html|￡4.42 |
+
 <h2 align="center">total price= £19.66</h2>
 
 
