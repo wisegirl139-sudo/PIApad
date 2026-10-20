@@ -4,7 +4,9 @@ this will also soon have its compatibe website.
 how it works is each "key" acts a keyboard key (like genuinely abcd etc on your keyboard) then these key values are used on the website to make sounds.(eg x tricggers f#). and thats pretty much a whole summary of it
 anywyas
 pcb
-<img width="505" height="337" alt="image" src="img\Screenshot 2026-10-20 103523.png" />
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
 schmatic
 <img width="690" height="404" alt="image" src="img\Screenshot 2026-10-20 102724.png" />
 BOM

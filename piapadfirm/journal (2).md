@@ -12,4 +12,4 @@ OKyyy i didnt acc code , i was palaying around with sampling time, settled at li
 okay i think we're done with the main.c gpio bit for the leds, pb 5 -led showld light when pad pressed or when the adc sample value>baseline+200 learning as i go fr-0031
 -20mins
 i think ive done enough for now lowk , theres some polishing ill do when i get the pcbs and i can test code .-1:46
-also finished bom and readme on github-0:147
+also finished bom and readme on github-0:147( this was later updated)

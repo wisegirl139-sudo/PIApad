@@ -16,7 +16,7 @@ put the capacitators in parrallel, connect all gnd t gnd, connect dp1 to dp2 etc
 
 10:37 5 hours ish not too sure
 just added the pcb card layout the size being 85.6x53.98mm, now going to round corners -10:38
-lowk just in the cycle of connecting everything , been there for ages - took a break to design keys on canva-1642 (-4 hrs)
+lowk just in the cycle of connecting everything , been there for ages - took a break to design keys on canva-1642 (-4 hrs) 
 currently turning the keys into pads but it doesnt connect for some reason , also took a lil break -2047 (-2hrs)
 spent 2 hrs making sure all the graphics are of a good size and in svg format and dont have an odd bg-2158
 FIGURED IT OUT 
@@ -58,7 +58,16 @@ hiiii im alive ummm i signed up for like 30 diff gack club events lets not quest
 
 48 mins
 16:46
-downloaded the wrong one apparently so i got it on vs codahhaaaa..
+downloaded the wrong one apparently so i got it on vs code
 all next stuff on the firm ware one ahah also the pcb i removed my name bc i just realised im trading and thatd be awkward-1734
 
-total about = 17.9to 18 hrs
+1 hr 15mins
+09:23
+just updated the images of the pcb and stuff and updated the decoupling capacitator bci did mess it up 
+then had to redo the whole pcb but that all works now so brills to that heres what they both look liike finally 
+<img width="468" height="293" alt="image-3 (2)" src="img\Screenshot 2026-10-20 102724.png" />
+and 
+![alt text](image.png)  front 
+![ a](image-1.png) rear
+
+total time 20hrs 14mins -(check journal 2 in piapad firm for the 2 hrs 30)
