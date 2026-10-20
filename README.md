@@ -12,23 +12,22 @@ pcb
 <img width="490" height="314" alt="image" src="https://github.com/user-attachments/assets/97dc6d65-6e76-4d74-8ceb-8a25e0ad9769" />
 
 
-schmatic
+schmatic 
 <img width="755" height="398" alt="image" src="https://github.com/user-attachments/assets/4a4d179f-aeaa-477a-8b93-2f0c1402703a" />
 
 BOM
-| number | item name | link |
-| ------------- | ------------- | ------------- |
-| 3  | 100 nF capacitor, 0603	0603 100nF 50V X7R SMD capacitor  |
-| 2  | 10 µF capacitor, 0603	0603 10uF 10V X5R SMD capacitor  |
-| 3  | 100 nF capacitor, 0603	0603 100nF 50V X7R SMD capacitor |
-| 2 | 10 µF capacitor, 0603	0603 10uF 10V X5R SMD capacitor |
-| 2 | Yellow LED, 0603	0603 yellow LED 1608 SMD 2V 20mA |
-| 1 | 1×4, 2.54 mm vertical header	1x4 2.54mm male pin header straight |
-| 2 | 30 Ω, 0603	0603 30R 30 ohm SMD resistor 1% |
-| 2	| 5.1 kΩ, 0603	0603 5.1K 5100 ohm SMD resistor 1% |
-| 1	| 10 kΩ, 0603	0603 10K SMD resistor 1% |
-| 2 |	1 kΩ, 0603	0603 1K SMD resistor 1% |
-| 1 |	STM32L442KCU6	STM32L442KCU6 QFN32|
-| 1 |	MIC5504-3.3YM5	MIC5504-3.3YM5 SOT23-5 3.3V|
+| number | item name | link | price |
+| ------------- | ------------- | ------------- | ------------- |
+| 6 | 100 nF capacitor, 0603	0603 100nF 50V X7R SMD capacitor  |https://shorturl.at/AdGyc| ￡4.19 |
+| 4  | 10 µF capacitor, 0603	0603 10uF 10V X5R SMD capacitor  |https://shorturl.at/QeLva| ￡1.02 |
+| 2 | Yellow LED, 0603	0603 yellow LED 1608 SMD 2V 20mA | https://shorturl.at/DPzo3| ￡1.24 |
+| 1 | 1×4, 2.54 mm vertical header	1x4 2.54mm male pin header straight |  https://shorturl.at/FfzzU | £0.74|
+| 2 | 30 Ω, 0603	0603 30R 30 ohm SMD resistor 1% | https://rb.gy/cfu7y2 | ￡1.28 |
+| 2	| 5.1 kΩ, 0603	0603 5.1K 5100 ohm SMD resistor 1% | https://rb.gy/cfu7y2 | ￡1.28 |
+| 1	| 10 kΩ, 0603	0603 10K SMD resistor 1% | https://rb.gy/cfu7y2 | ￡1.28 |
+| 2 |	1 kΩ, 0603	0603 1K SMD resistor 1% | https://rb.gy/cfu7y2 | ￡1.28 |
+| 1 |	STM32L442KCU6	STM32L442KCU6 QFN32|https://shorturl.at/c5ISe | ￡4.23 |
+| 1 |	MIC5504-3.3YM5	MIC5504-3.3YM5 SOT23-5 3.3V| https://www.aliexpress.com/item/1005009487683111.html|￡4.42 |
+<h2 align="center">total price= £19.66</h2>
 
 
